@@ -2,6 +2,7 @@ import React from "react";
 import Lottie from "lottie-react";
 import reader from "../assets/reader.json";
 import Topics from "./Topics";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -21,59 +22,12 @@ const Home = () => {
             </p>
           </div>
           <div className="flex flex-col items-center md:flex-row">
-            <a
-              href="/books"
+            <Link
+              to="/topics"
               className="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
             >
-              <span className="mr-3">Visit Store</span>
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-4"
-              >
-                <polyline
-                  fill="none"
-                  stroke="currentColor"
-                  strokeMiterlimit="10"
-                  points="4,4 22,4 19,14 4,14 "
-                />
-                <circle
-                  cx="4"
-                  cy="22"
-                  r="2"
-                  strokeLinejoin="miter"
-                  strokeLinecap="square"
-                  stroke="none"
-                  fill="currentColor"
-                />
-                <circle
-                  cx="20"
-                  cy="22"
-                  r="2"
-                  strokeLinejoin="miter"
-                  strokeLinecap="square"
-                  stroke="none"
-                  fill="currentColor"
-                />
-                <polyline
-                  fill="none"
-                  stroke="currentColor"
-                  strokeMiterlimit="10"
-                  points="1,1 4,4 4,14 2,18 23,18 "
-                />
-              </svg>
-            </a>
-            <a
-              href="/about"
-              aria-label=""
-              className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-blue-700"
-            >
-              Learn More
-            </a>
+              <span className="mr-3">Satr Quiz</span>
+            </Link>
           </div>
         </div>
         <div className="relative lg:w-1/2 ">
