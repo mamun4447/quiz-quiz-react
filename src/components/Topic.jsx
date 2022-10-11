@@ -5,7 +5,7 @@ const Topic = ({ data }) => {
   //   console.log(data);
   const { id, logo, name, total } = data;
   return (
-    <div className="col-span-2">
+    <div className="mx-3 lg:col-span-2">
       <div className="card w-full  bg-base-100 shadow-xl image-full">
         <figure>
           <img className="bg-black" src={logo} alt="Shoes" />

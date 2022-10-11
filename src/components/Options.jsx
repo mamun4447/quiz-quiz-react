@@ -33,9 +33,9 @@ const Options = ({ option, correctAnswer }) => {
   return (
     <div
       onClick={() => handledClick(option, correctAnswer)}
-      className="border p-2 my-4 mx-2 shadow-xl rounded-xl items-center text-center cursor-pointer"
+      className="border border-spacing-5 p-2 my-4 mx-2 shadow-xl rounded-xl items-center text-center cursor-pointer"
     >
-      <p>{option}</p>
+      <p className="py-3">{option}</p>
     </div>
   );
 };

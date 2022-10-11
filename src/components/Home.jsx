@@ -11,14 +11,15 @@ const Home = () => {
         <div className="mb-10 lg:max-w-lg  lg:pr-5 lg:mb-0">
           <div className="max-w-xl mb-6 lg:mt-8">
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              A reader lives a <br className="hidden md:block" /> thousand lives{" "}
+              Practice makes a man <br className="hidden md:block" /> Perfect{" "}
               <span className="inline-block text-blue-400">before he dies</span>
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
-              Books are a uniquely portable magic. Books serve to show a man
-              that those original thoughts of his aren’t very new after all. The
-              man who does not read good books is no better than the man who
-              can’t.
+              Practice makes a man perfect is a proverb which tells us the
+              importance of continuous practice in any subject to learn
+              anything. There is no alternate to the hard work and success. We
+              must have to practice in the particular field on regular basis in
+              which we want to succeed.
             </p>
           </div>
           <div className="flex flex-col items-center md:flex-row">
