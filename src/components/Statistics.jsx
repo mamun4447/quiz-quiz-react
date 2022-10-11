@@ -6,7 +6,7 @@ const Statistics = () => {
   const data = useContext(DataContext);
   // console.log(data);
   return (
-    <div className="mt-10 ml-64">
+    <div className="lg:mt-10 lg:ml-64">
       <BarChart width={600} height={300} data={data}>
         <XAxis dataKey="name" stroke="#8884d8" />
         <YAxis dataKey="total" stroke="#8884d8" />
