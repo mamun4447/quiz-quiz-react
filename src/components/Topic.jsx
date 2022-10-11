@@ -8,7 +8,7 @@ const Topic = ({ data }) => {
     <div className="col-span-2">
       <div className="card w-full  bg-base-100 shadow-xl image-full">
         <figure>
-          <img src={logo} alt="Shoes" />
+          <img className="bg-black" src={logo} alt="Shoes" />
         </figure>
         <div className="card-body mt-12 ml-12">
           <h2 className="card-title text-4xl ">{name}</h2>

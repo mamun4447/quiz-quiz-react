@@ -9,8 +9,12 @@ const Quizs = () => {
   return (
     <div className="text-center my-2">
       <header>
-        <img className="mx-auto" src={logo} alt="" />
-        <h1 className="text-5xl text-center">{name}</h1>
+        <img
+          className="mx-auto bg-black rounded-3xl"
+          src={logo}
+          alt="Logo of topic"
+        />
+        <h1 className="text-5xl text-center">Quiz of {name}</h1>
         <p className="py-2">
           Questions number: <span>{total}</span>
         </p>
