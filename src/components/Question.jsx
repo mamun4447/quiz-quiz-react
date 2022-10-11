@@ -1,12 +1,21 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
 import Options from "./Options";
 
 const Question = ({ questions }) => {
-  //   console.log(questions);
   const { id, question, correctAnswer, options } = questions;
+  const notify = () => toast(`Ans: ${correctAnswer}`);
+  //   console.log(questions);
   return (
     <div className="container  mx-auto p-5 mb-6 shadow-xl border rounded-2xl">
+      <p onClick={notify} className=" text-sm text-right cursor-pointer">
+        <FontAwesomeIcon icon="fa-regular fa-eye" />
+        View
+      </p>
       <h2 className="text-2xl">{question}</h2>
+
       <div className="grid grid-cols-2">
         {options.map((option) => (
           <Options key={id} correctAnswer={correctAnswer} option={option} />
