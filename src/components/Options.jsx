@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 const handledClick = (value, correctAnswer) => {
   if (value === correctAnswer) {
     // console.log("right");
+
     toast.success("Right answer!", {
       position: "top-right",
       autoClose: 5000,

@@ -7,7 +7,7 @@ const Quizs = () => {
   // console.log(quizDatas.data);
   const { name, logo, total, questions } = quizDatas.data;
   return (
-    <div className="text-center my-2 w-[50%] mx-auto">
+    <div className="text-center my-2 w-[75%] lg:w-[50%] mx-auto">
       <header>
         <img
           className="mx-auto bg-black rounded-3xl"
